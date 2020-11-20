@@ -1,3 +1,5 @@
 # Jupyer
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+groundwater/__pycache__/
+
