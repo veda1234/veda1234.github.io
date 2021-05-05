@@ -1,4 +1,4 @@
-# Porfolio website
+# Portfolio website
 
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/veda1234/veda1234.github.io/react?logo=react) ![npm](https://img.shields.io/badge/npm-6.14.11-ff69b4)
 
