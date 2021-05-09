@@ -4,7 +4,6 @@ import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container';
 import {
   BrowserRouter as Router,
-  Switch,
   Route,
   Link
 } from "react-router-dom";
@@ -28,9 +27,9 @@ class App extends React.Component{
         {title : 'Contact me', path: '/contact'}
       ],
       home:{
-        title : 'Coder',
-        subTitle : 'Full stack',
-        text : 'Still learning ds'
+        title : 'Hi, I am Vedaanti Baliga',
+        subTitle : 'A full stack developer',
+        text : 'Still exploring the world of computers'
       },
       about:{
         title: 'About me'
