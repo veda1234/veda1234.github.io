@@ -9,7 +9,7 @@ function Footer() {
             <Container fluid={true}>
                 <Row className="border-top justify-content-between p-3">
                     <Col className="p-0 d-flex justify-content-center" md={12} sm={12}>
-                        This site was made by Vedaanti Baliga
+                        This site was made using React.js by Vedaanti Baliga 
                     </Col>
                     {/* <Col className="p-0 d-flex justify-content-end" md={3}>
                         This site was made by Vedaanti Baliga

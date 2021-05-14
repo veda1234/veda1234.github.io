@@ -4,8 +4,9 @@ import Row from 'react-bootstrap/Row';
 
 import VedaantiPortfolioPic from '../assets/images/Vedaanti-Portfolio-Pic.jpeg';
 import CAST from '../assets/images/CAST-Website.png';
-// import Pikkal from '../assets/images/Pikkal.png';
 import Cards from '../components/Cards'
+import resumePdf from '../assets/Documents/Resume_Vedaanti_Baliga.pdf'
+import LorPdf from '../assets/Documents/AllLetters.pdf'
 
 
 class Divisions extends React.Component{
@@ -23,42 +24,42 @@ class Divisions extends React.Component{
                 },
                 {
                     id : 1,
-                    title : 'My Projects/Work experiences',
+                    title : 'My Projects & Work experiences',
                     subTitle : 'Collection of the work that I have done till date and my resume',
                     imgSrc : CAST,
-                    link : '/contact',
+                    link : '/workex',
                     selected : false
                 },
                 {
                     id : 2,
-                    title : 'Letter of recommendations',
-                    subTitle : 'Letters and certificates that I have achieved upon project completion',
+                    title : 'Resume',
+                    subTitle : 'My updated resume',
                     imgSrc : CAST,
-                    link : 'https://google.com',
+                    link : resumePdf,
                     selected : false
                 },
                 {
                     id : 3,
-                    title : 'Letter of recommendations',
-                    subTitle : 'Letters and certificates that I have achieved upon project completion',
+                    title : 'My Achievements',
+                    subTitle : 'Letters of recommendation and certificates that I have achieved upon project completion',
                     imgSrc : CAST,
-                    link : 'https://google.com',
+                    link : LorPdf,
                     selected : false
                 },
                 {
                     id : 4,
-                    title : 'Letter of recommendations',
-                    subTitle : 'Letters and certificates that I have achieved upon project completion',
+                    title : 'Conferences and Publications',
+                    subTitle : 'Projects submitted and accepted in conferences and publications',
                     imgSrc : CAST,
-                    link : 'https://google.com',
+                    link : '/pubcon',
                     selected : false
                 },
                 {
                     id : 5,
-                    title : 'Letter of recommendations',
-                    subTitle : 'Letters and certificates that I have achieved upon project completion',
+                    title : 'Education',
+                    subTitle : 'My school, undergraduate and masters',
                     imgSrc : CAST,
-                    link : 'https://google.com',
+                    link : '/edu',
                     selected : false
                 }
             ]
