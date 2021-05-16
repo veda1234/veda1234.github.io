@@ -1,29 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.26b6942a.chunk.css",
-    "main.js": "/static/js/main.9d64d0bc.chunk.js",
-    "main.js.map": "/static/js/main.9d64d0bc.chunk.js.map",
+    "main.css": "/static/css/main.48bec4f6.chunk.css",
+    "main.js": "/static/js/main.5a065e78.chunk.js",
+    "main.js.map": "/static/js/main.5a065e78.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9bed8731.js",
     "runtime-main.js.map": "/static/js/runtime-main.9bed8731.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.61f16fa4.chunk.js": "/static/js/2.61f16fa4.chunk.js",
-    "static/js/2.61f16fa4.chunk.js.map": "/static/js/2.61f16fa4.chunk.js.map",
+    "static/js/2.5e50ab87.chunk.js": "/static/js/2.5e50ab87.chunk.js",
+    "static/js/2.5e50ab87.chunk.js.map": "/static/js/2.5e50ab87.chunk.js.map",
     "static/js/3.9e087ea3.chunk.js": "/static/js/3.9e087ea3.chunk.js",
     "static/js/3.9e087ea3.chunk.js.map": "/static/js/3.9e087ea3.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.26b6942a.chunk.css.map": "/static/css/main.26b6942a.chunk.css.map",
-    "static/js/2.61f16fa4.chunk.js.LICENSE.txt": "/static/js/2.61f16fa4.chunk.js.LICENSE.txt",
+    "static/css/main.48bec4f6.chunk.css.map": "/static/css/main.48bec4f6.chunk.css.map",
+    "static/js/2.5e50ab87.chunk.js.LICENSE.txt": "/static/js/2.5e50ab87.chunk.js.LICENSE.txt",
     "static/media/AllLetters.ccf8134f.pdf": "/static/media/AllLetters.ccf8134f.pdf",
-    "static/media/CAST-Website.291f2a60.png": "/static/media/CAST-Website.291f2a60.png",
     "static/media/Resume_Vedaanti_Baliga.5f8a41df.pdf": "/static/media/Resume_Vedaanti_Baliga.5f8a41df.pdf",
-    "static/media/Vedaanti-Portfolio-Pic.55acb391.jpeg": "/static/media/Vedaanti-Portfolio-Pic.55acb391.jpeg"
+    "static/media/Vedaanti-Portfolio-Pic.55acb391.jpeg": "/static/media/Vedaanti-Portfolio-Pic.55acb391.jpeg",
+    "static/media/achievements.37eaf9af.svg": "/static/media/achievements.37eaf9af.svg",
+    "static/media/arrow.89e72b88.svg": "/static/media/arrow.89e72b88.svg",
+    "static/media/education.a5fe8b2a.svg": "/static/media/education.a5fe8b2a.svg",
+    "static/media/publications.39d84d73.svg": "/static/media/publications.39d84d73.svg",
+    "static/media/resume.122a58b9.svg": "/static/media/resume.122a58b9.svg",
+    "static/media/workex.2db9cf3e.svg": "/static/media/workex.2db9cf3e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.9bed8731.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.61f16fa4.chunk.js",
-    "static/css/main.26b6942a.chunk.css",
-    "static/js/main.9d64d0bc.chunk.js"
+    "static/js/2.5e50ab87.chunk.js",
+    "static/css/main.48bec4f6.chunk.css",
+    "static/js/main.5a065e78.chunk.js"
   ]
 }
