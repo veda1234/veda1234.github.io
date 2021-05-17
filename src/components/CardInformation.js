@@ -15,7 +15,6 @@ import LorPdf from '../assets/Documents/AllLetters.pdf'
 function CardInformation(props){
     const style = useSpring({opacity:1, from: {opacity:0}});
     if (props.link === resumePdf || props.link === LorPdf){
-        // console.log('hi')
     return(
             <animated.div style={style} className='v-card-info'>
                 <p className='v-card-title'>{props.title}</p>

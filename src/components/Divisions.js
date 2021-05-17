@@ -2,9 +2,15 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
-import VedaantiPortfolioPic from '../assets/images/Vedaanti-Portfolio-Pic.jpeg';
-import CAST from '../assets/images/CAST-Website.png';
 import Cards from '../components/Cards'
+
+import VedaantiPortfolioPic from '../assets/images/Vedaanti-Portfolio-Pic.jpeg';
+import EducationIcon from '../assets/images/education.svg'
+import AchievementIcon from '../assets/images/achievements.svg'
+import WorkExIcon from '../assets/images/workex.svg'
+import ResumeIcon from '../assets/images/resume.svg'
+import PubconIcon from '../assets/images/publications.svg'
+
 import resumePdf from '../assets/Documents/Resume_Vedaanti_Baliga.pdf'
 import LorPdf from '../assets/Documents/AllLetters.pdf'
 
@@ -17,16 +23,15 @@ class Divisions extends React.Component{
                 {
                     id : 0,
                     title : 'About me',
-                    subTitle : 'My journey to become a Computer Engineer',
                     imgSrc : VedaantiPortfolioPic,
                     link : '/about',
                     selected : false
                 },
                 {
                     id : 1,
-                    title : 'My Projects & Work experiences',
-                    subTitle : 'Collection of the work that I have done till date and my resume',
-                    imgSrc : CAST,
+                    title : 'Projects & Work experiences',
+                    subTitle : 'Summary of all my projects and work experiences',
+                    imgSrc : WorkExIcon,
                     link : '/workex',
                     selected : false
                 },
@@ -34,15 +39,15 @@ class Divisions extends React.Component{
                     id : 2,
                     title : 'Resume',
                     subTitle : 'My updated resume',
-                    imgSrc : CAST,
+                    imgSrc : ResumeIcon,
                     link : resumePdf,
                     selected : false
                 },
                 {
                     id : 3,
-                    title : 'My Achievements',
+                    title : 'Achievements',
                     subTitle : 'Letters of recommendation and certificates that I have achieved upon project completion',
-                    imgSrc : CAST,
+                    imgSrc : AchievementIcon,
                     link : LorPdf,
                     selected : false
                 },
@@ -50,15 +55,15 @@ class Divisions extends React.Component{
                     id : 4,
                     title : 'Conferences and Publications',
                     subTitle : 'Projects submitted and accepted in conferences and publications',
-                    imgSrc : CAST,
+                    imgSrc : PubconIcon,
                     link : '/pubcon',
                     selected : false
                 },
                 {
                     id : 5,
                     title : 'Education',
-                    subTitle : 'My school, undergraduate and masters',
-                    imgSrc : CAST,
+                    subTitle : 'My school, undergraduate, masters, volunteering work, GRE and TOEFL scores',
+                    imgSrc : EducationIcon,
                     link : '/edu',
                     selected : false
                 }

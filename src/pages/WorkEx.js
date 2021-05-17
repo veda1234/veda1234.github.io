@@ -1,7 +1,19 @@
 import React from 'react';
+import {
+    Route,
+    Link
+  } from "react-router-dom";
 
 import HeroPage from '../components/Hero';
 import AllContent from '../components/AllContent';
+import CarouselCards from '../components/CarouselCards';
+import PubConPage from './PublicationsConferences';
+import LorPdf from '../assets/Documents/AllLetters.pdf'
+import PikkalLor from '../assets/Documents/LOR_Vedaanti_Baliga.pdf'
+import QbLor from '../assets/Documents/QuantBinaryLOR.pdf'
+import SDSCertificate from '../assets/Documents/Samsung_IITD.pdf'
+import SDSLOR from '../assets/Documents/Letter of Referral - Samsung SDS.pdf'
+import SDSReport from '../assets/Documents/INTERNSHIP REPORT Samsung.pdf'
 
 function WorkEx(props){
     window.scrollTo(0, 0);
@@ -9,19 +21,25 @@ function WorkEx(props){
         <div>
         <HeroPage title={props.title}/>
         <br></br>
-        <HeroPage subTitle='CAST - Contamination Assessment and Site management Tool'/>
+        <a href='https://github.com/CAST-IIT/CAST' target='_blank' rel='noopener noreferrer'><HeroPage subTitle='CAST - Contamination Assessment and Site management Tool'/></a>
             <AllContent>
+                <CarouselCards/>
+                <p className="p-0 d-flex justify-content-center" md={3}><b>Online version of CAST</b></p>
             <p><i>What is CAST ?</i></p>
             <p>CAST is a browser-based application made for the assessment of contaminated sites, it is open source and has an easy-to-use interface (which is not offered by any other software to date). To know more about this software in detail
-            you can see the online guide(in development for the publication in revision) <a href='https://prabhasyadav.github.io/CASTbook/intro.html' target='_blank' rel='noopener noreferrer'>here.</a> 
+            you can see the  <a href='https://prabhasyadav.github.io/CASTbook/intro.html' target='_blank' rel='noopener noreferrer'>online guide</a>(in development for the publication in revision). 
             </p>
             <p><i>What was my role in developing this software?</i></p>
             <p>I was the Technical lead for this project. I conceptualized and decided on all technical aspects of the project. 
-            I did the full-stack development for this project using the python-based microframework <a href='https://flask.palletsprojects.com/en/1.1.x/' target='_blank' rel='noopener noreferrer'>Flask</a>.
-            I also deployed it on a server at IITD called <a href='https://baadal.iitd.ac.in/baadal' target='_blank' rel='noopener noreferrer'>Baadal</a>. 
-            The <a href='http://www.cast.iitd.ac.in' target='_blank' rel='noopener noreferrer'>Online deployment(currently in development for publication, desktop version) </a> 
-            and <a href='https://github.com/CAST-IIT/CAST' target='_blank' rel='noopener noreferrer'>Offline version </a>(Github repo, with installation instructions) is now available.
+            I did the full-stack development(v0.2, made 4 out of 6 toolboxes) for this project using the python-based microframework <a href='https://flask.palletsprojects.com/en/1.1.x/' target='_blank' rel='noopener noreferrer'>Flask</a>. 
+            The <a href='http://www.cast.iitd.ac.in' target='_blank' rel='noopener noreferrer'>Online deployment (currently in development for phase 2 &amp; publication, desktop version) </a> 
+            and <a href='https://github.com/CAST-IIT/CAST' target='_blank' rel='noopener noreferrer'>Offline version v0.2</a>(Github repo, with installation instructions) is now available.
             </p>
+            <p>I developed :</p>
+            <ul>
+            <li>Offline versions : v0.1 and v0.2</li>
+            <li>Online version : v0.1 on <a href='https://baadal.iitd.ac.in/baadal' target='_blank' rel='noopener noreferrer'>Baadal</a></li>
+            </ul>
             <p><i>What all did I learn while developing this project?</i></p>
             <ul>
                 <li>HTML5, CSS, Bootstrap</li>
@@ -48,7 +66,8 @@ function WorkEx(props){
             I gave various presentations to professors at IITD as well as over video calls, internationally to professors at Technische Universität Dresden and later at the <b>University of Texas, Austin</b>(they
             are now in collaboration with this project as well) and improved the software taking each view into consideration. This helped me in improving
             my communication skills as well. A lot of edits and improvements later, we started to publicize the project. Over time, I learned how to prepare posters, abstracts, and manuscripts for CAST.</p>
-            <p>After a year, CAST got accepted in a <a href='https://github.com/CAST-IIT/CAST' target='_blank' rel='noopener noreferrer'>conference and is now currently in revision for publication</a>. I even received <a href='https://github.com/CAST-IIT/CAST' target='_blank' rel='noopener noreferrer'> certificates and letters of recommendation for this project.</a>
+            <p>I deployed CAST using Gunicorn and Nginx.</p>
+            <p>After a year, CAST got accepted in a <Link to='/pubcon' target='_blank' rel='noopener noreferrer'>conference and is now currently in revision for publication</Link><Route path= "/pubcon" render={() => <PubConPage title={this.state.pubcon.title}/>}/>. I even received <a href={LorPdf} target='_blank' rel='noopener noreferrer'> certificates and letters of recommendation for this project.</a>
             </p>
             </AllContent>
             <HeroPage subTitle='Startup Experiences'/>
@@ -88,7 +107,7 @@ function WorkEx(props){
                     in me learning a lot of things in a short time.
                 </p>
                 <p>I also learned how to effectively utilize criticism as well, to listen more carefully, and not constantly defend myself. In conclusion, 
-                    I learned a lot in the process as well as contributed to two products that are today being used by the company currently. I also got a  <a href='https://github.com/CAST-IIT/CAST' target='_blank' rel='noopener noreferrer'>letter of recommendation from the CEO.</a>
+                    I learned a lot in the process as well as contributed to two products that are today being used by the company currently. I also got a  <a href={PikkalLor} target='_blank' rel='noopener noreferrer'>letter of recommendation from the Founder and CEO.</a>
                 </p>
             </AllContent>
             <a href='https://www.linkedin.com/company/quant-binary/about/' target='_blank' rel='noopener noreferrer'><HeroPage subTitle='QuantBinary'/></a>
@@ -124,11 +143,11 @@ function WorkEx(props){
             <p>While the technical aspects were going well, the management portion of the job was relatively tougher for me. Solving 
             disagreements, clearing confusion, and motivating the teammates proved to be challenging. In conclusion, I learned how to 
             manage a team, the basics of the stock market and algorithmic trading, content generation, and quantitative trading stategies.
-            I also got a  <a href='https://github.com/CAST-IIT/CAST' target='_blank' rel='noopener noreferrer'>letter of recommendation from the Founder.</a>
+            I also got a  <a href={QbLor} target='_blank' rel='noopener noreferrer'>letter of recommendation from the Founder.</a>
             </p>
             </AllContent>
             <HeroPage subTitle='My first technical internship'/>
-            <a href='https://www.linkedin.com/company/quant-binary/about/' target='_blank' rel='noopener noreferrer'><HeroPage subTitle='Samsung SDS'/></a>
+            <a href='https://www.samsungsds.com/en/index.html' target='_blank' rel='noopener noreferrer'><HeroPage subTitle='Samsung SDS'/></a>
             <AllContent>
             <p><i>What did I do in Samsung SDS?</i></p>
             <p>I was hired as a student trainee at Samsung during my third year in college(BTech in Information Technology). I worked with 
@@ -157,9 +176,9 @@ function WorkEx(props){
                 as I had never done industrial-level production, but with a lot of help and guidance from the team lead, I picked up my 
                 pace and made windows forms and web applications using .NET. </p>
                 <p>This being my first internship was a very big stepping stone in my career as it gave me an opportunity to work amongst 
-                skilled software engineers and learn a framework with their help. I received a  <a href='https://github.com/CAST-IIT/CAST' target='_blank' rel='noopener noreferrer'>certificate </a> 
-                from the company and a  <a href='https://github.com/CAST-IIT/CAST' target='_blank' rel='noopener noreferrer'>letter of 
-                referral</a> from the team lead after the completion of my internship, I also submitted a  <a href='https://github.com/CAST-IIT/CAST' target='_blank' rel='noopener noreferrer'>
+                skilled software engineers and learn a framework with their help. I received a  <a href={SDSCertificate} target='_blank' rel='noopener noreferrer'>certificate </a> 
+                from the company and a  <a href={SDSLOR} target='_blank' rel='noopener noreferrer'>letter of 
+                referral</a> from the team lead after the completion of my internship, I also submitted a  <a href={SDSReport} target='_blank' rel='noopener noreferrer'>
                 report</a> for the work on .NET</p>
             </AllContent>
         </div>
