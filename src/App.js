@@ -16,6 +16,8 @@ import AboutPage from './pages/AboutPage'
 import WorkEx from './pages/WorkEx'
 import PubConPage from './pages/PublicationsConferences'
 import EduPage from './pages/EduPage'
+import resumePdf from './assets/Documents/Resume_Vedaanti_Baliga.pdf'
+import LorPdf from './assets/Documents/AllLetters.pdf'
 
 
 // Why do we have a state here? Because we want other pages to use functions, not classes. Classes can sometimes mess up things. Try to 
@@ -57,16 +59,35 @@ class App extends React.Component{
       },
     }
   }
+  getInitialState () {
+    return {
+      navExpanded: false
+    }
+  }
+
+  setNavExpanded(expanded) {
+    this.setState({ navExpanded: expanded });
+  }
+
+  closeNav() {
+    this.setState({ navExpanded: false });
+  }
   render(){
     return (
       <HashRouter basename={process.env.PUBLIC_URL}>
         <Container className='p-0' fluid={true}>
-          <Navbar className='border-bottom' bg='transparent' expand='lg'>
+          <Navbar collapseOnSelect className='border-bottom' bg='transparent' expand='lg'>
             {/* <Navbar.Brand>Vedaanti Baliga</Navbar.Brand> */}
             <Navbar.Toggle className='border-0' aria-controls='navbar-toggle'/>
             <Navbar.Collapse id='navbar-toggle'>
               <Nav className='ml-auto'>
                 <Link className='nav-link' to='/'>Home</Link>
+                <Link className='nav-link' to='/about'>About</Link>
+                <Link className='nav-link' to='/workex'>Experience</Link>
+                <a className='nav-link' href={resumePdf} target='_blank' rel='noopener noreferrer'>Resume</a>
+                <a className='nav-link' href={LorPdf} target='_blank' rel='noopener noreferrer'>Achievements</a>
+                <Link className='nav-link' to='/pubcon'>Publications</Link>
+                <Link className='nav-link' to='/edu'>Education</Link>
                 <Link className='nav-link' to='/contact'>Contact</Link>
               </Nav>
             </Navbar.Collapse>

@@ -20,6 +20,7 @@ function WorkEx(props){
     return(
         <div>
         <HeroPage title={props.title}/>
+        <HeroPage subTitle='Research Experience'/>
         <br></br>
         <a href='https://github.com/CAST-IIT/CAST' target='_blank' rel='noopener noreferrer'><HeroPage subTitle='CAST - Contamination Assessment and Site management Tool'/></a>
             <AllContent>
@@ -67,7 +68,7 @@ function WorkEx(props){
             are now in collaboration with this project as well) and improved the software taking each view into consideration. This helped me in improving
             my communication skills as well. A lot of edits and improvements later, we started to publicize the project. Over time, I learned how to prepare posters, abstracts, and manuscripts for CAST.</p>
             <p>I deployed CAST using Gunicorn and Nginx.</p>
-            <p>After a year, CAST got accepted in a <Link to='/pubcon' target='_blank' rel='noopener noreferrer'>conference and is now currently in revision for publication</Link><Route path= "/pubcon" render={() => <PubConPage title={this.state.pubcon.title}/>}/>. I even received <a href={LorPdf} target='_blank' rel='noopener noreferrer'> certificates and letters of recommendation for this project.</a>
+            <p>After a year, CAST got accepted in a <Link to='/pubcon' target='_blank' rel='noopener noreferrer'>conference and is now currently in revision for publication</Link><Route path= "/pubcon" render={() => <PubConPage title={this.state.pubcon.title}/>}/>, <b>where I am one of the authors</b>. I even received <a href={LorPdf} target='_blank' rel='noopener noreferrer'> certificates and letters of recommendation for this project.</a>
             </p>
             </AllContent>
             <HeroPage subTitle='Startup Experiences'/>
