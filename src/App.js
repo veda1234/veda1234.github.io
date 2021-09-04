@@ -29,7 +29,11 @@ class App extends React.Component{
       title : 'Vedaanti Baliga',
       headerLinks : [
         {title : 'Home', path: '/'},
-        {title : 'Contact me', path: '/contact'}
+        {title : 'Contact me', path: '/contact'},
+        {title : 'About', path: '/about'},
+        {title: 'Work Ex', path: '/workex'},
+        {title: 'Publications and Conferences', path: '/pubcon'},
+        {title: 'Education', path: '/edu'}
       ],
       cardLinks : [
         {title : 'About', path: '/about'},

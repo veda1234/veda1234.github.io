@@ -9,9 +9,9 @@ function AboutPage(props){
         <div>
         <HeroPage title={props.title}/>
             <AllContent>
-            <p>Hi, my name is Vedaanti Baliga. I am a full stack developer and I have an enthusiasm for Data Science. I would be going 
-            for my master’s in Applied Data Science to the <a href='https://www.usc.edu/' target='_blank' rel='noopener noreferrer'>University of 
-            Southern California</a>, in Fall '21.</p>
+            <p>Hi, my name is Vedaanti Baliga. I am a full stack developer and I have an enthusiasm for Data Science. I am currently pursuing my 
+            Master of Science in Applied Data Science from the <a href='https://www.usc.edu/' target='_blank' rel='noopener noreferrer'>University of 
+            Southern California</a></p>
             <p>I am skilled in languages 
             like Python, Java, C++, C. I have worked with Flask, Django, .NET, React.js, MySQL, Redis, Docker, Git and have done 
             deployment work as well.</p>
