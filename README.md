@@ -4,3 +4,12 @@
 
 This branch has the codes that I developed for making my portfolio website. I used [React.js](https://reactjs.org/) which is a JavaScript library, to develop this website.
 You can checkout the website by clicking here : [Vedaanti Baliga's Porfolio](https://veda1234.github.io)
+
+To run project : 
+npm run start
+
+To build optimized project for publication : 
+npm run build
+
+To deploy : 
+npm run deploy
