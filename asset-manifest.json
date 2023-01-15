@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4c73417c.chunk.css",
-    "main.js": "/static/js/main.957a7fde.chunk.js",
-    "main.js.map": "/static/js/main.957a7fde.chunk.js.map",
+    "main.js": "/static/js/main.c4b35835.chunk.js",
+    "main.js.map": "/static/js/main.c4b35835.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.eb85c6d7.js",
     "runtime-main.js.map": "/static/js/runtime-main.eb85c6d7.js.map",
     "static/css/2.4c34b247.chunk.css": "/static/css/2.4c34b247.chunk.css",
@@ -14,7 +14,7 @@
     "static/css/2.4c34b247.chunk.css.map": "/static/css/2.4c34b247.chunk.css.map",
     "static/css/main.4c73417c.chunk.css.map": "/static/css/main.4c73417c.chunk.css.map",
     "static/js/2.a19f6f1a.chunk.js.LICENSE.txt": "/static/js/2.a19f6f1a.chunk.js.LICENSE.txt",
-    "static/media/AllLetters.ccf8134f.pdf": "/static/media/AllLetters.ccf8134f.pdf",
+    "static/media/AllLetters.7ea0f4ce.pdf": "/static/media/AllLetters.7ea0f4ce.pdf",
     "static/media/AllPlots.07a3b170.png": "/static/media/AllPlots.07a3b170.png",
     "static/media/Computations.0847bd1a.png": "/static/media/Computations.0847bd1a.png",
     "static/media/Credits.39ad2c8c.png": "/static/media/Credits.39ad2c8c.png",
@@ -25,7 +25,7 @@
     "static/media/MainPage.d0c29a08.png": "/static/media/MainPage.d0c29a08.png",
     "static/media/Publication.f130316d.pdf": "/static/media/Publication.f130316d.pdf",
     "static/media/QuantBinaryLOR.bc50fe79.pdf": "/static/media/QuantBinaryLOR.bc50fe79.pdf",
-    "static/media/Resume_Vedaanti_Baliga.1982b596.pdf": "/static/media/Resume_Vedaanti_Baliga.1982b596.pdf",
+    "static/media/Resume_Vedaanti_Baliga.3b690023.pdf": "/static/media/Resume_Vedaanti_Baliga.3b690023.pdf",
     "static/media/Samsung_IITD.981db04e.pdf": "/static/media/Samsung_IITD.981db04e.pdf",
     "static/media/Scatterplot.e7f78e47.png": "/static/media/Scatterplot.e7f78e47.png",
     "static/media/SingleComputation.44a6565a.png": "/static/media/SingleComputation.44a6565a.png",
@@ -43,6 +43,6 @@
     "static/css/2.4c34b247.chunk.css",
     "static/js/2.a19f6f1a.chunk.js",
     "static/css/main.4c73417c.chunk.css",
-    "static/js/main.957a7fde.chunk.js"
+    "static/js/main.c4b35835.chunk.js"
   ]
 }
